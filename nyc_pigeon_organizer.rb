@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
         binding.pry
         pigeon_list[name][attribute] << color.to_s
         binding.pry
+      end
     end
-  end
   pigeon_list
+  end
 end
