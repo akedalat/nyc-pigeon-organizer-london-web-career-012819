@@ -4,10 +4,9 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, value_hash|
     value_hash.each do |color, name_array|
       name_array.each do |name|
-        pigeon_name = name
-            pigeon_list[name]=[attribute]
-            binding.pry
-      end
+        pigeon_list[name] ||= {}
+        pigeon_list[name][attribute] ||= []
+        pigeon_list[name][attribute] << color.to_s
     end
   end
 end
