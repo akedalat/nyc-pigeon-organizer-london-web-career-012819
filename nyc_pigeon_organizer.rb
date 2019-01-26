@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       name_array.each do |name|
         pigeon_name = name
             pigeon_list[name]=color
+            binding.pry
       end
     end
   end
