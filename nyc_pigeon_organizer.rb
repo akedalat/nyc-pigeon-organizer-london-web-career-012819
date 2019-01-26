@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value_hash.each do |color, name_array|
       name_array.each do |name|
         pigeon_name = name
-            pigeon_list[name]=color
+            pigeon_list[name]=[attribute]
             binding.pry
       end
     end
