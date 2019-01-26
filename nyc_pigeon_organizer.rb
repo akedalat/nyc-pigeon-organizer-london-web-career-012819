@@ -9,4 +9,5 @@ def nyc_pigeon_organizer(data)
         pigeon_list[name][attribute] << color.to_s
     end
   end
+  pigeon_list
 end
