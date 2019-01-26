@@ -5,11 +5,11 @@ def nyc_pigeon_organizer(data)
     value_hash.each do |color, name_array|
       name_array.each do |name|
         pigeon_list[name] ||= {}
-        binding.pry
+        #binding.pry
         pigeon_list[name][attribute] ||= []
-        binding.pry
+        #binding.pry
         pigeon_list[name][attribute] << color.to_s
-        binding.pry
+        #binding.pry
       end
     end
   pigeon_list
