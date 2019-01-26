@@ -4,8 +4,8 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, value_hash|
     value_hash.each do |color, name_array|
       name_array.each do |name|
-      
-      
+
+
     binding.pry
   end
   end
